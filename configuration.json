@@ -5,5 +5,5 @@
 	"instance_type": "t2.nano",
 	"security_group": "<security_group>",
 	"key_name": "<key_name>",
-    "init_file_path": "./init.txt"
+    	"init_file_path": "./init.txt"
 }
