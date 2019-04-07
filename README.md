@@ -18,8 +18,8 @@ Services (AWS).
 
 
 ### Examples
-## We will launch an istance and terminate it manually.
-## We need to define a number of parameters (they are all listed in configuration.json file, which can be read before launching any instances): 
+We will launch an istance and terminate it manually. 
+We need to define a number of parameters (they are all listed in configuration.json file, which can be read before launching any instances): 
 * aws_region
 * ami_id
 * ec2_instance_profile_name
