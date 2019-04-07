@@ -22,14 +22,13 @@ def get_all_ec2_instance_ids(conn_ec2):
 
     return instance_ids
 
-def launch_instance(conn_ec2, s3_bucket, aws_region, ami_id, ec2_instance_profile_name,
+def launch_instance(conn_ec2, aws_region, ami_id, ec2_instance_profile_name,
                      instance_type, security_group, key_name, init_file_path=None):
     '''
     Function launches ec2 instances
 
     Args:
         conn_ec2 (boto.ec2.connection.EC2Connection): EC2 connector
-        s3_bucket (str): name of S3 bucket
         aws_region (str): name of AWS region (e.g. "us-east-2")
         ami_id (str): id corresponding to AMI template        
         ec2_instance_profile_name (str): EC2 instance profile name is used to set up communication of EC2 instance
