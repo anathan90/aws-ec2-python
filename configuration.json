@@ -1,0 +1,9 @@
+{
+	"aws_region": "<aws_region>",
+	"ami_id": "<ami_id>",
+	"ec2_instance_profile_name": "<ec2_instance_profile_name>",
+	"instance_type": "t2.nano",
+	"security_group": "<security_group>",
+	"key_name": "<key_name>",
+    "init_file_path": "./init.txt"
+}
