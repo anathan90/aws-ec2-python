@@ -29,7 +29,7 @@ For both examples we need to define a number of parameters - they are all listed
 * key_name
 
 #### Example 1
-We will launch an istance, inspect all running and pending instances and terminate it manually. 
+In this example we will launch an EC2 istance, inspect all running and pending instances, and terminate it manually. 
 ```
 >>> import aws 
 >>> import boto.ec2
