@@ -1,5 +1,5 @@
 # aws-ec2-python
-Managing EC2 Instances on Amazon Web Services (AWS) using Python
+Managing EC2 Instances on Amazon Web Services (AWS) using Python.
 
 ## Overview
 This simple Python (2.7) module helps launch, modify (in terms of auto-termination) and terminate EC2 instances on Amazon Web 
