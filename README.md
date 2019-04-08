@@ -15,7 +15,9 @@ Services (AWS).
 5. Create IAM role for EC2 instances - for Example 2 we've set up an IAM role that allows EC2 instances to communicate with S3.
 
 ### Files
-
+* aws.py: python module containing all functions 
+* configuration.json: json file containing all the parameters that need to be defined in order to use the aws.py functions.
+* init.txt: sample bash script to be executed on EC2 instance immediately after it has been launched.
 
 ### Examples
 For both examples we need to define a number of parameters - they are all listed in configuration.json file, which can be read before launching any instances:
