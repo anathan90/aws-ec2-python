@@ -29,7 +29,7 @@ For both examples we need to define a number of parameters - they are all listed
 * key_name
 
 #### Example 1
-In this example we will launch an EC2 istance, inspect all running and pending instances, and terminate it manually. 
+In this example we will launch an EC2 istance, inspect all running and pending instances, and terminate it manually. We assume that all variables listed above have been specified.
 ```
 >>> import aws 
 >>> import boto.ec2
@@ -40,7 +40,7 @@ In this example we will launch an EC2 istance, inspect all running and pending i
 >>> aws.terminate_instances(conn_ec2, [ec2_instance_id])
 ```
 #### Example 2
-In this example we will launch an EC2 instance, automatically run a simple script after launching it (init.txt - the script creates a new file, and uploads to an S3 bucket), and make the EC2 instance terminate itself immediately after the script has been executed.
+In this example we will launch an EC2 instance, automatically run a simple script after launching it (init.txt - the script creates a new file, and uploads to an S3 bucket), and make the EC2 instance terminate itself immediately after the script has been executed. We assume that all variables listed above have been specified.
 ```
 >>> import aws 
 >>> import boto.ec2
