@@ -17,7 +17,7 @@ Services (AWS).
 ### Files
 * aws.py: python module containing all functions 
 * configuration.json: json file containing all the parameters that need to be defined in order to use the aws.py functions.
-* init.txt: sample bash script to be executed on EC2 instance immediately after it has been launched.
+* init.txt: sample bash script to be executed on EC2 instance immediately after it has been launched (note that S3 bucket needs to be specified)
 
 ### Examples
 For both examples we need to define a number of parameters - they are all listed in configuration.json file, which can be read before launching any instances:
